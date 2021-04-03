@@ -8,9 +8,7 @@ public class TestController {
 	
 	@GetMapping("/test")
 	public String getSomeString() {
-		
-		TestService service = new TestService(10);
-		return "lalal";
+		return "Hello World";
 	}
 
 }
